@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+.dashboard-container{
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  background: linear-gradient(to bottom, #2fa5ed, #b5d3f9, #ebeefb)
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dashboard-second-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 144px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.forecast-container{
+  width: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loading-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
+}
+.weather-container{
+  width: 40%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loader-icon{
+  height: 100px;
+  width: 150px;
 }

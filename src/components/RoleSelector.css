@@ -1,0 +1,56 @@
+.btn-ele{
+    color:white;
+    border: none;
+    border-radius:5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transfor 0.2s ease;
+}
+
+.btn-ele:hover{
+    transform: translateY(-2px);
+}
+
+.btn-ele:active{
+    transform: translateY(0);
+}
+
+.btn-ele:focus{
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.event-planer-btn{
+    background-color: #007bff;
+}
+
+.event-planer-btn:hover{
+    background-color: #0056b3;
+}
+
+.farmer-btn{
+    background-color: #28a745;
+}
+.farmer-btn:hover {
+    background-color: #218838;
+}
+
+.farmer-btn:active{
+    background-color: #1e7e34;
+}
+
+.taveler-btn{
+    background-color: #ffc107;
+    color: black;
+}
+
+.taveler-btn:hover{
+    background-color: #e0a800;
+}
+
+.taveler-btn:active{
+    background-color: #c69500;
+}
